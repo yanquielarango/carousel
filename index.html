@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carousel Component</title>
+</head>
+<body>
+    <div class="carousel">
+        <img src="/images/img_01.jpg" alt="" class="carousel__img">
+        <blockquote class="carousel__testimonial">
+            <p class="carousel__testimonial-text">
+               " Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni repellendus cum quasi debitis accusantium nemo quo,
+                fuga porro fugiat amet velit similique vero omnis illo est qui doloremque."
+            </p>
+            <p class="carousel__testimonial-author">Maria de Almeda</p>
+            <p class="carousel__testimonial-company">CEO, Almeda Inc .</p>
+        </blockquote>
+        
+        <button class="carousel__button carousel__button--left">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke-width="1.5" 
+                stroke="currentColor" 
+                class="carousel__button-icon"
+            >
+              <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="M15.75 19.5 8.25 12l7.5-7.5" 
+                />
+            </svg>
+              
+        </button>
+        <button class="carousel__button carousel__button--right">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke-width="1.5" 
+                stroke="currentColor" 
+                class="carousel__button-icon"
+            >
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    d="m8.25 4.5 7.5 7.5-7.5 7.5" 
+                />
+            </svg>
+              
+        </button>
+
+        <div class="carousel__indicators">
+            <button class="carousel__indicator carousel__indicator-fill">&nbsp;</button>
+            <button class="carousel__indicator">&nbsp;</button>
+            <button class="carousel__indicator">&nbsp;</button>
+            <button class="carousel__indicator">&nbsp;</button>
+        </div>
+    </div>
+</body>
+</html>
